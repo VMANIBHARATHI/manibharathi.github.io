@@ -1,1 +1,78 @@
+1. How to Set title and description for social media platforms?
 
+ans:
+<meta property="og:title" content="Your Title" />
+<meta property="og:description" content="Your Description" />
+
+2. How to create Repository using git cli?
+
+ans:
+git init
+git add <file>
+git commit -m "Initial commit"
+git remote add origin <repository-url>
+git push -u origin master
+
+3. How to write internal styles with examples?
+
+ans:
+<style>
+  h1 {
+    color: red;
+  }
+  p {
+    font-size: 20px;
+  }
+</style>
+
+4. How to style second last child using CSS with example?
+
+ans:
+ul li:nth-last-child(2) {
+  color: blue;
+}
+
+5. How to write styles to group of elements?
+
+ans:
+h1, h2, h3 {
+  color: yellow;
+}
+
+6. How to set tab name in HTML?
+
+ans:
+<title>Your Tab Name</title>
+
+7. What is stashing and how to implement it using Git CLI?
+
+ans:
+git stash
+git stash list
+git stash apply
+
+
+8. Which tag is used to set tab icon in HTML?
+
+ans:
+<link rel="icon" href="favicon.ico"> #this is used in head 
+<img=" " alt=""> #this is used in body 
+
+9. List all basic selectors in HTML:
+
+ans:
+ `*` (universal selector)
+ `#id` (id selector)
+ `.class` (class selector)
+ `tag` (tag selector)
+ 'global' (.*)
+ 'descended'- immediate child of parenting element.
+ ' grouping'
+ `[attribute]` (attribute selector)
+
+10. How to apply styles to all input fields with password type in CSS?
+
+ans:
+input[type="password"] {
+  border: 1px solid blue;
+}
